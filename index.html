@@ -5,28 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- ==================================================================
-       ⚠️  CONFIGURAÇÃO RÁPIDA ANTES DE PUBLICAR
-       Troque TODAS as ocorrências de "https://SEU-DOMINIO-AQUI/" pelo
-       domínio real assim que decidir. Ocorrências:
-         1. <link rel="canonical">  (abaixo)
-         2. <meta property="og:url">
-         3. <meta property="og:image">
-         4. JSON-LD "url"
-         5. JSON-LD "image"
+       ✅ SITE PUBLICADO EM: https://camposeb.github.io/salao-maua/
+       As URLs canônicas e de Open Graph já estão configuradas.
        ================================================================== -->
 
   <title>Espaço Mauá | Salão de Festas em Magé - RJ</title>
   <meta name="description" content="Espaço Mauá: salão de festas em Mauá, Magé - RJ, para festa infantil, aniversários, chá de bebê e confraternizações. Projetado para transformar sonhos em realidade. Orçamento pelo WhatsApp.">
-  <link rel="canonical" href="https://SEU-DOMINIO-AQUI/">
+  
+  <!-- Domínio configurado -->
+  <link rel="canonical" href="https://camposeb.github.io/salao-maua/">
   <meta name="theme-color" content="#C2255C">
 
+  <!-- Open Graph (Imagem configurada para a pasta assets) -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Espaço Mauá">
   <meta property="og:title" content="Espaço Mauá | Salão de Festas em Magé - RJ">
   <meta property="og:description" content="Projetado para transformar sonhos em realidade. Salão de festas em Mauá, Magé - RJ.">
   <meta property="og:locale" content="pt_BR">
-  <meta property="og:url" content="https://SEU-DOMINIO-AQUI/">
-  <meta property="og:image" content="https://SEU-DOMINIO-AQUI/assets/op-image.webp">
+  <meta property="og:url" content="https://camposeb.github.io/salao-maua/">
+  <meta property="og:image" content="https://camposeb.github.io/salao-maua/assets/op-image.webp">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Espaço Mauá — Salão de Festas em Magé - RJ">
@@ -40,6 +37,7 @@
 
   <link rel="stylesheet" href="style.css">
 
+  <!-- JSON-LD configurado para o domínio e a pasta assets -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -47,9 +45,9 @@
     "name": "Espaço Mauá",
     "slogan": "Projetado para transformar sonhos em realidade",
     "description": "Salão de festas em Mauá, Magé (RJ), para festas infantis, aniversários, chá de bebê, chá revelação e confraternizações.",
-    "url": "https://SEU-DOMINIO-AQUI/",
+    "url": "https://camposeb.github.io/salao-maua/",
     "telephone": "+55-21-97010-8000",
-    "image": "https://SEU-DOMINIO-AQUI/assets/op-image.webp",
+    "image": "https://camposeb.github.io/salao-maua/assets/op-image.webp",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Estrada Real de Mauá, 887",
@@ -65,7 +63,6 @@
   </script>
 </head>
 
-<!-- Remova "modo-demo" quando tiver as fotos reais e quiser ativar o lightbox em produção -->
 <body class="modo-demo">
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
 
@@ -85,13 +82,11 @@
           <li><a href="#como-chegar">Como chegar</a></li>
           <li><a href="#contato">Contato</a></li>
         </ul>
-        <!-- CTA EXCLUSIVO DO MENU MOBILE -->
         <a class="btn btn-whatsapp nav-cta"
            href="https://wa.me/5521970108000?text=Ol%C3%A1%21%20Vi%20o%20site%20do%20Espa%C3%A7o%20Mau%C3%A1%20e%20gostaria%20de%20um%20or%C3%A7amento."
            target="_blank" rel="noopener">Pedir orçamento</a>
       </nav>
 
-      <!-- CTA EXCLUSIVO DO DESKTOP -->
       <a class="btn btn-whatsapp header-cta"
          href="https://wa.me/5521970108000?text=Ol%C3%A1%21%20Vi%20o%20site%20do%20Espa%C3%A7o%20Mau%C3%A1%20e%20gostaria%20de%20um%20or%C3%A7amento."
          target="_blank" rel="noopener">
@@ -130,6 +125,7 @@
         </div>
 
         <div class="hero-ilustracao">
+          <!-- Quando tiver a foto: <img src="assets/hero.webp" alt="Salão do Espaço Mauá" width="900" height="900"> -->
           <div class="placeholder ph-hero" role="img" aria-label="Espaço reservado para foto do salão">
             <svg class="ph-icon" viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="2"/><path d="M21 15l-5-5L5 21"/></svg>
             <p>Adicionar foto do salão</p>
@@ -179,6 +175,7 @@
             demais detalhes da estrutura, é só chamar a gente no WhatsApp —
             respondemos com prazer e ajustamos ao seu evento.
           </p>
+          <!-- ATIVAR QUANDO TIVER OS DADOS: Remova o "hidden" e preencha -->
           <ul class="sobre-lista" hidden>
             <li><strong>Capacidade:</strong> até [X] convidados</li>
             <li><strong>Mesas e cadeiras:</strong> [X] mesas · [X] cadeiras</li>
@@ -190,6 +187,7 @@
           <a class="btn btn-outline" href="https://wa.me/5521970108000?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20a%20estrutura%20do%20Espa%C3%A7o%20Mau%C3%A1." target="_blank" rel="noopener">Tirar dúvidas no WhatsApp</a>
         </div>
         <div class="sobre-imagem reveal">
+          <!-- Quando tiver a foto: <img src="assets/sobre.webp" alt="Salão decorado" width="800" height="1000"> -->
           <div class="placeholder ph-sobre" role="img" aria-label="Espaço reservado para foto do salão decorado">
             <svg class="ph-icon" viewBox="0 0 24 24" width="42" height="42" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="2"/><path d="M21 15l-5-5L5 21"/></svg>
             <p>Adicionar foto do espaço</p>
@@ -257,65 +255,67 @@
           <button type="button" class="filtro" data-filtro="festas" aria-pressed="false">Festas realizadas</button>
         </div>
         <p id="galeria-status" class="sr-only" role="status"></p>
+        
+        <!-- GALERIA: Os links data-full já apontam para a pasta assets/ -->
         <div class="galeria-grid reveal" id="galeria-grid">
 
-          <button type="button" class="galeria-item g-tall" data-categoria="salao" data-full="imagens/galeria-01.webp" data-legenda="Arco de balões no salão">
+          <button type="button" class="galeria-item g-tall" data-categoria="salao" data-full="assets/galeria-01.webp" data-legenda="Arco de balões no salão">
             <div class="placeholder" role="img" aria-label="Espaço reservado para foto do arco de balões">
               <svg class="ph-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="2"/><path d="M21 15l-5-5L5 21"/></svg>
               <p>Adicionar foto aqui</p><small>800 × 1000 px</small>
             </div>
           </button>
 
-          <button type="button" class="galeria-item g-square" data-categoria="salao" data-full="imagens/galeria-02.webp" data-legenda="Mesa posta com centro de mesa">
+          <button type="button" class="galeria-item g-square" data-categoria="salao" data-full="assets/galeria-02.webp" data-legenda="Mesa posta com centro de mesa">
             <div class="placeholder" role="img" aria-label="Espaço reservado para foto de mesa posta">
               <svg class="ph-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="2"/><path d="M21 15l-5-5L5 21"/></svg>
               <p>Adicionar foto aqui</p><small>800 × 800 px</small>
             </div>
           </button>
 
-          <button type="button" class="galeria-item" data-categoria="salao" data-full="imagens/galeria-03.webp" data-legenda="Área externa com luzes">
+          <button type="button" class="galeria-item" data-categoria="salao" data-full="assets/galeria-03.webp" data-legenda="Área externa com luzes">
             <div class="placeholder" role="img" aria-label="Espaço reservado para foto da área externa">
               <svg class="ph-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="2"/><path d="M21 15l-5-5L5 21"/></svg>
               <p>Adicionar foto aqui</p><small>800 × 600 px</small>
             </div>
           </button>
 
-          <button type="button" class="galeria-item" data-categoria="decoracoes" data-full="imagens/galeria-04.webp" data-legenda="Painel de festa personalizado">
+          <button type="button" class="galeria-item" data-categoria="decoracoes" data-full="assets/galeria-04.webp" data-legenda="Painel de festa personalizado">
             <div class="placeholder" role="img" aria-label="Espaço reservado para foto do painel de festa">
               <svg class="ph-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="2"/><path d="M21 15l-5-5L5 21"/></svg>
               <p>Adicionar foto aqui</p><small>800 × 600 px</small>
             </div>
           </button>
 
-          <button type="button" class="galeria-item g-tall" data-categoria="decoracoes" data-full="imagens/galeria-05.webp" data-legenda="Mesa de bolo com doces">
+          <button type="button" class="galeria-item g-tall" data-categoria="decoracoes" data-full="assets/galeria-05.webp" data-legenda="Mesa de bolo com doces">
             <div class="placeholder" role="img" aria-label="Espaço reservado para foto da mesa de bolo">
               <svg class="ph-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="2"/><path d="M21 15l-5-5L5 21"/></svg>
               <p>Adicionar foto aqui</p><small>800 × 1000 px</small>
             </div>
           </button>
 
-          <button type="button" class="galeria-item g-square" data-categoria="decoracoes" data-full="imagens/galeria-06.webp" data-legenda="Arranjo de balões">
+          <button type="button" class="galeria-item g-square" data-categoria="decoracoes" data-full="assets/galeria-06.webp" data-legenda="Arranjo de balões">
             <div class="placeholder" role="img" aria-label="Espaço reservado para foto do arranjo de balões">
               <svg class="ph-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="2"/><path d="M21 15l-5-5L5 21"/></svg>
               <p>Adicionar foto aqui</p><small>800 × 800 px</small>
             </div>
           </button>
 
-          <button type="button" class="galeria-item" data-categoria="festas" data-full="imagens/galeria-07.webp" data-legenda="Festa de aniversário">
+          <button type="button" class="galeria-item" data-categoria="festas" data-full="assets/galeria-07.webp" data-legenda="Festa de aniversário">
             <div class="placeholder" role="img" aria-label="Espaço reservado para foto de aniversário">
               <svg class="ph-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="2"/><path d="M21 15l-5-5L5 21"/></svg>
               <p>Adicionar foto aqui</p><small>800 × 600 px</small>
             </div>
           </button>
 
-          <button type="button" class="galeria-item g-tall" data-categoria="festas" data-full="imagens/galeria-08.webp" data-legenda="Chá revelação">
+          <button type="button" class="galeria-item g-tall" data-categoria="festas" data-full="assets/galeria-08.webp" data-legenda="Chá revelação">
             <div class="placeholder" role="img" aria-label="Espaço reservado para foto de chá revelação">
               <svg class="ph-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="2"/><path d="M21 15l-5-5L5 21"/></svg>
               <p>Adicionar foto aqui</p><small>800 × 1000 px</small>
             </div>
           </button>
 
-          <button type="button" class="galeria-item g-square" data-categoria="festas" data-full="imagens/galeria-09.webp" data-legenda="Comemoração especial">
+          <button type="button" class="galeria-item g-square" data-categoria="festas" data-full="assets/galeria-09.webp" data-legenda="Comemoração especial">
             <div class="placeholder" role="img" aria-label="Espaço reservado para foto de comemoração">
               <svg class="ph-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="2"/><path d="M21 15l-5-5L5 21"/></svg>
               <p>Adicionar foto aqui</p><small>800 × 800 px</small>
